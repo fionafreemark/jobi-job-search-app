@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+// Headings
+@mixin heading($size-value) {
+  font-size: $size-value;
+  font-family: $ff-heading;
+  letter-spacing: $ls-default;
+  line-height: $lh-default;
+}
+
+// Body Styles
+@mixin body($size-value) {
+  font-size: $size-value;
+    font-family: $ff-body;
+    letter-spacing: $ls-default;
+    line-height: $lh-default;
+}
