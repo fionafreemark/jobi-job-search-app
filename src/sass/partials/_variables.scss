@@ -5,8 +5,10 @@ $white: #FFFFFF;
 $black: #0F1620;
 $primary-dark: #254135;
 $primary-med: #31795A;
+$primary-med-translucent: #31795ac5;
 $primary-light: #E9F2EF;
 $accent: #D2F34C;
+$accent-translucent: #d2f34cd3;
 $secondary-med: #C4C4C4;
 $secondary-light: #F5F5F5;
 $transparent: #00000000;
@@ -30,8 +32,4 @@ $ls-default: 1.2px;
 
 // Font Family
 $ff-heading: 'EB Garamond', serif;
-// $ff-body: 'Gordita Regular', sans-serif;
-// @font-face {
-//   font-family: "Gordita Regular";
-//   src: local("gordita-regular"), url("./src/fonts/gordita-regular.otf") format("opentype");
-// }
+$ff-body: 'Gordita Regular', sans-serif;

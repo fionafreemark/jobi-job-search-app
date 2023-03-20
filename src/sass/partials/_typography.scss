@@ -1,2 +1,36 @@
 @use "./variables" as *;
+@use "./mixins" as *;
 
+
+h2 {
+  @include heading($fs-3xl);
+}
+
+h3 {
+  @include heading($fs-2xl);
+}
+
+h4 {
+  @include heading($fs-xl);
+}
+
+p, a, button {
+  @include body($fs-default);
+}
+
+a, button {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.button-link {
+  color:$white;
+}
+
+// Nav
+h1 {
+  @include heading($fs-small);
+  font-weight: bold;
+  margin: 0;
+  color: $white;
+}

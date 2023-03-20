@@ -1,4 +1,60 @@
 @use "./variables" as *;
 
+// Removing Default Styles
+
+html, body, h1, h2, h3, h4, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
 // Default Styles
 
+.wrapper {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: $fs-global;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+a,
+button {
+  display: inline-block;
+    transition: 300ms;
+}
+
+.button-link {
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.primary-button {
+  background-color: $primary-med;
+    &:hover,
+      &:focus {
+        background-color: $accent;
+        color: $black;
+      }
+}
+.secondary-button {
+  border: 1px solid $white;
+  background-color: $transparent;
+    &:hover,
+      &:focus {
+        border: 1px solid $black;
+        background-color: $accent;
+        color: $black;
+      }
+}

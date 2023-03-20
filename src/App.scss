@@ -1,14 +1,23 @@
+
 // Set Up Files
 @use './sass/partials/base-styles';
-@use './sass/partials/setup';
 @use './sass/partials/mixins';
+@use './sass/partials/setup';
+@use './sass/partials/typography';
 @use './sass/partials/variables';
-// @use './sass/partials/typography';
 // Component Styles
-
-// Page & Component Styles
+@use './sass/partials/header';
+@use './sass/partials/nav';
+// Page Styles
+@use './sass/partials/home';
 // 
 // Error Handling
 
 // Media Queries
 // @use './sass/partials/media-queries';
+
+// Local Font
+@font-face {
+  font-family: 'Gordita Regular';
+  src: local('gordita-regular'), url("./fonts/gordita-regular.otf") format("opentype");
+}

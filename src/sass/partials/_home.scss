@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+// Home Page Styles
+
+.section-home {
+  height: calc(100vh + 55px);
+  margin-top: -140px;
+  background-image: url(../../assets/images/group-working-on-laptops.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
