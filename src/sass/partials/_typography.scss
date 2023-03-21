@@ -4,6 +4,7 @@
 
 h2 {
   @include heading($fs-3xl);
+  color: $white;
 }
 
 h3 {

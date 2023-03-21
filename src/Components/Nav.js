@@ -5,7 +5,6 @@ import Home from '../Pages/Home';
 import JobListings from '../Pages/JobListings';
 const Nav = () => {
   return (
-    <header>
       <nav className="wrapper">
         <div className="logo-container">
           <div className="logo-circle-box circle-primary"></div>
@@ -34,7 +33,6 @@ const Nav = () => {
           <Link className="button-link primary-button" to={''} element={''}>Post a Job</Link>
         </div>
       </nav>
-    </header>
   )
 }
 
