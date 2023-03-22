@@ -6,11 +6,12 @@
 @use './sass/partials/typography';
 @use './sass/partials/variables';
 // Component Styles
-@use './sass/partials/header';
+@use './sass/partials/components/header';
+@use './sass/partials/components/header-secondary';
 @use './sass/partials/components/nav';
 @use './sass/partials/components/search-bar';
 // Page Styles
-@use './sass/partials/home';
+@use './sass/partials/pages/index';
 // 
 // Error Handling
 

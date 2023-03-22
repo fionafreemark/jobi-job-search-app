@@ -1,5 +1,6 @@
 // Components
 import Footer from './Components/Footer';
+import Header from './Components/Header';
 import Main from './Components/Main';
 
 
@@ -10,6 +11,8 @@ import './App.scss';
 function App() {
   return (
 <>
+{/* If url = home display <HeaderHome>, if not display <header> */}
+<Header />
 <Main />
 <Footer />
 </>

@@ -1,0 +1,152 @@
+@use '../variables' as *;
+
+// Index Page Styles
+// * {
+//   border: 1px solid white;
+// }
+
+// Icon Section Styles ---------------
+.icon-section {
+  background-color: $secondary-light;
+}
+
+.icon-section-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 0;
+}
+
+// Categories Section Styles
+
+.categories-container {
+  padding: 3% 0;
+}
+
+
+
+.categories-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.cat-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0;
+
+  img {
+    max-height: 22px;
+    padding-right: 10%;
+  }
+}
+
+.ui-button {
+  background-color: #E8F7E9;
+}
+
+.dev-button {
+  background-color: #FFFAEC;
+}
+
+.marketing-button {
+  background-color: #FFEBFB;
+}
+
+.tele-button {
+  background-color: #E8F7E9;
+}
+
+.accounting-button {
+  background-color: #F7F5FF;
+}
+
+.editing-button {
+  background-color: #FFF3EA;
+}
+
+// Trending Section Styles -------------
+
+.trending-container {
+  padding: 3% 0;
+}
+
+.trending-heading-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending-button-box {
+  display: flex;
+  button {
+    padding: 0%;
+    &.trend-box-1 {
+      background-color: $white;
+      &:hover,
+      &:focus {
+        background-color: $accent;
+        border: 1px solid $accent;
+      }
+    }
+    
+    &.trend-box-2 {
+      background-color: $primary-med;
+    
+      &:hover,
+      &:focus {
+        background-color: $primary-dark;
+        border: 1px solid $primary-dark;
+      }
+    }
+  }
+}
+
+.trending-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.trending-ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+
+  li {
+    width: 24%;
+    position: relative;
+  }
+}
+
+.trending-img-div {
+  img {
+    object-fit: cover;
+    min-height: 350px;
+    width: 100%;
+  }
+
+  p {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: $white;
+  }
+}
+
+// Listing Section Styles ---------------
+
+.job-listings-ul{
+  display: flex;
+  flex-direction: column;
+  li {
+    display: flex;
+  }
+}
