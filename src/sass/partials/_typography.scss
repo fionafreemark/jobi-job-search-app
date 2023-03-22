@@ -3,20 +3,29 @@
 
 
 h2 {
-  @include heading($fs-3xl);
+  @include serif($fs-3xl);
   color: $white;
 }
 
 h3 {
-  @include heading($fs-2xl);
+  @include sans-serif($fs-2xl);
 }
 
 h4 {
-  @include heading($fs-xl);
+  @include sans-serif($fs-xl);
 }
 
-p, a, button {
-  @include body($fs-default);
+h5, p, a, button {
+  @include sans-serif($fs-default);
+}
+
+label {
+  @include sans-serif($fs-xxs);
+  color: $secondary-dark;
+}
+
+input::placeholder, input, select {
+  @include sans-serif($fs-xs);
 }
 
 a, button {
@@ -24,13 +33,9 @@ a, button {
   font-weight: bold;
 }
 
-.button-link {
-  color:$white;
-}
-
 // Nav
 h1 {
-  @include heading($fs-small);
+  @include serif($fs-small);
   font-weight: bold;
   margin: 0;
   color: $white;

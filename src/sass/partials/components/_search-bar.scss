@@ -1,8 +1,49 @@
 @use '../variables' as *;
 
+// * {
+//   border: 1px solid white;
+// }
 // Search Bar Styles
 
 .search-form {
   display: flex;
   justify-content: space-between;
+  width: 80rem;
 }
+
+.keyword-box,
+.category-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  background-color: $white;
+  padding: 2%;
+  label {
+    margin-bottom: 2%;
+  }
+}
+
+.keyword-box {
+  border-radius: 10px 0 0 10px;
+}
+
+input, select {
+  border: none;
+  background-color: $white;
+  color: $black;
+}
+
+.search-button {
+  width: 20%;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background-color: $accent;
+  &:hover,
+  &:focus {
+    border: 1px solid $primary-dark;
+    background-color: $primary-dark;
+    color: $white;
+  }
+}
+

@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 // Headings
-@mixin heading($size-value) {
+@mixin serif($size-value) {
   font-size: $size-value;
   font-family: $ff-heading;
   letter-spacing: $ls-default;
@@ -10,7 +10,7 @@
 }
 
 // Body Styles
-@mixin body($size-value) {
+@mixin sans-serif($size-value) {
   font-size: $size-value;
     font-family: $ff-body;
     letter-spacing: $ls-default;
