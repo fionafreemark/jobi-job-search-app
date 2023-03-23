@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // Pages
 import JobListings from '../Pages/JobListings';
 // Assets
-import Bookmark from "../assets/icons/bookmark.png"
+import Bookmark from "../assets/icons/bookmark.svg"
 
 const ListingSection = () => {
   return (
@@ -115,6 +115,14 @@ const ListingSection = () => {
             </div>
           </li>
         </ul>
+        <div className="post-job-container">
+          <div className="outline-box">
+          <p>Do you want to post a job for your company? <span>We can help. </span>
+          </p>
+          <Link to={'/job-listings'} element={<JobListings />} className=""> Click here.
+          </Link>
+          </div>
+        </div>
       </div>
     </section>
   )

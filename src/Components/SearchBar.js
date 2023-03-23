@@ -4,7 +4,7 @@ const SearchBar = () => {
     <>
       <form className="search-form">
         <div className="keyword-box">
-          <label htmlFor="keyword">Your job title, keyword or company?</label>
+          <label htmlFor="keyword">Job Title/Keyword/Company</label>
           <input type="text" id="keyword" placeholder="Company" />
         </div>
         {/* Map over JSON file to get each individual category */}
