@@ -12,8 +12,15 @@
 // Body Styles
 @mixin sans-serif($size-value) {
   font-size: $size-value;
-    font-family: $ff-body;
-    letter-spacing: $ls-default;
-    line-height: $lh-default;
-    color: $black;
+  font-family: $ff-body;
+  letter-spacing: $ls-default;
+  line-height: $lh-default;
+  color: $black;
+}
+
+// Background Image Styles
+@mixin bkgd($bk-img) {
+  background-image: url($bk-img);
+  background-size: cover;
+  background-position: center;
 }

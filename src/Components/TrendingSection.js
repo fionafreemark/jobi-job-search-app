@@ -14,15 +14,15 @@ const TrendingSection = () => {
   return (
     <section className="trending-section wrapper">
       <div className="trending-container">
-        <div className="header-box">
+        <div className="heading-box">
           <h3>Trending Jobs</h3>
-          <div className="trending-button-box">
-            <button type="button" title="previous" aria-label="previous" className="trending-box trend-box-1">
-              <img src={LeftArrowBlack} alt="" className="trending-icon" />
+          <div className="heading-button-box">
+            <button type="button" title="previous" aria-label="previous" className="heading-button heading-icon-left-box">
+              <img src={LeftArrowBlack} alt="" className="heading-icon" />
             </button>
 
-            <button type="button" title="previous" aria-label="previous" className="trending-box trend-box-2">
-              <img src={RightArrowWhite} alt="" className="trending-icon" />
+            <button type="button" title="previous" aria-label="previous" className="heading-button heading-icon-right-box">
+              <img src={RightArrowWhite} alt="" className="heading-icon" />
             </button>
 
           </div>

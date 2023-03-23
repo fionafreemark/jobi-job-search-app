@@ -9,7 +9,7 @@ const ListingSection = () => {
   return (
     <section className="listing-section wrapper">
       <div className="listing-container">
-        <div className="header-box">
+        <div className="heading-box">
           <h3>New Job Listings</h3>
           <div className="categories-link-box">
             <Link to={'/job-listings'} element={<JobListings />} className="explore-jobs-link">Explore all jobs &#62;

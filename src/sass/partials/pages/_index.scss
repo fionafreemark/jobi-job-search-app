@@ -1,4 +1,5 @@
 @use '../variables' as *;
+@use '../mixins' as *;
 
 // Index Page Styles
 // * {
@@ -79,13 +80,13 @@
   align-items: center;
 }
 
-.trending-button-box {
+.heading-button-box {
   display: flex;
 
   button {
     padding: 0%;
 
-    &.trend-box-1 {
+    &.heading-icon-left-box {
       background-color: $white;
 
       &:hover,
@@ -95,7 +96,7 @@
       }
     }
 
-    &.trend-box-2 {
+    &.heading-icon-right-box {
       background-color: $primary-med;
 
       &:hover,
@@ -107,7 +108,7 @@
   }
 }
 
-.trending-box {
+.heading-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -357,21 +358,26 @@
   display: flex;
   justify-content: space-between;
   padding: 10% 0;
+
   .talent-choose,
   h3,
   h4 {
     color: $primary-med;
   }
+
   .talent-choose {
     font-weight: bold;
     letter-spacing: .2px;
   }
+
   h3 {
     font-size: $fs-2xl;
   }
+
   h4 {
     font-size: $fs-m;
   }
+
   p {
     font-size: $fs-xs;
     padding: 2% 0;
@@ -386,6 +392,7 @@
   flex-basis: 48%;
   padding: 2%;
 }
+
 // Accordion Box Styles
 .accordion-container {
   display: flex;
@@ -399,12 +406,14 @@
 
   padding: 5% 2% 5% 0;
   cursor: pointer;
+
   img {
     width: 2rem;
   }
 }
+
 .accordion-text {
- height: 0;
+  height: 0;
   overflow: hidden;
   transition: 500ms;
   overflow-y: auto;
@@ -417,12 +426,13 @@
 }
 
 
-
 .talent-right {
   flex-basis: 48%;
   position: relative;
-  height: 650px;
-
+  max-height: 650px;
+  min-height: 650px;
+  max-width: 650px;
+  min-width: 650px;
 }
 
 .img-pos {
@@ -436,10 +446,10 @@
 // Peach
 .talent-top-img {
   img {
-    object-position: top;
+    object-position: left 20%;
     width: 321px;
     height: 200px;
-    border-radius: 20px 0 20px 0;
+    border-radius: 35px 0 35px 0;
   }
 }
 
@@ -456,17 +466,69 @@
 }
 
 // Search Bar
-.talent-search-bar {}
+.talent-search-bar {
+  right: 0;
+  top: 15%;
+}
 
-// Blue Portrait
+.small-search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  height: 70px;
+  background-color: $transparent;
+
+  .small-keyword-box {
+    height: 100%;
+    flex-basis: 80%;
+  }
+
+  label {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  input[type="text"] {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    padding: 5% 10%;
+    border-radius: 10px;
+    box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+  }
+
+  .search-button {
+    padding: 0;
+    width: auto;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+  }
+
+  .search-button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: $primary-med;
+  }
+
+
+}
+
+// Grey Portrait
 .talent-right-img {
-  right: 15%;
+  right: 12%;
   bottom: 10%;
 
   img {
     width: 296px;
     height: 323px;
-    border-radius: 20px 0 20px 0;
+    border-radius: 35px 0 30px 0;
   }
 }
 
@@ -481,7 +543,7 @@
     object-position: top;
     width: 195px;
     height: 175px;
-    border-radius: 20px 0 20px 0;
+    border-radius: 0 35px 0 35px;
   }
 }
 
@@ -491,10 +553,10 @@
   display: flex;
   flex-direction: column;
   bottom: 0;
-  padding: 5% 10% 15% 10%;
-  border-radius: 20px;
+  padding: 2% 10% 15% 10%;
+  border-radius: 15px;
   background-color: $white;
-    box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+  box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
 }
 
 .talent-layered-imgs {
@@ -520,7 +582,7 @@
     border: 5px solid $white;
   }
 
-  // Circular Candidate Images
+  // Layered/Circular Candidate Images
   .layer-1 {
     left: 10%;
   }
@@ -539,5 +601,95 @@
 
   .layer-5 {
     left: 70%;
+  }
+}
+
+
+// Client Section ---------------------------
+
+.client-section {
+  @include bkgd("../../assets/images/team-meeting.jpg");
+}
+
+.client-gradient {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 38%, rgba(0, 0, 0, 0.6) 100%);
+    padding: 0 0 8% 0;
+}
+
+.client-container {
+  display: flex;
+  flex-direction: column;
+
+  .heading-box {
+    align-items: flex-end;
+    h3 {
+      color: $white;
+      padding: 0;
+    }
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.testimonial-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 45%;
+  padding: 4%;
+  border-radius: 10px;
+  background-color: $white;
+
+  .client-quote {
+    margin: 5% 0;
+    line-height: 50px;
+    font-size: $fs-m;
+  }
+}
+
+.testimonial-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+
+  h4 {
+    font-size: 2.8rem;
+    margin-bottom: 3%;
+  }
+
+}
+
+.heading-button-box button.heading-icon-left-box.client-icon-back {
+  background-color: $transparent;
+}
+
+.client-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-size: $fs-default;
+    margin: 0;
+  }
+  .client-name {
+    font-weight: bold;
+  }
+  .client-location {
+    color: $secondary-dark;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
   }
 }
