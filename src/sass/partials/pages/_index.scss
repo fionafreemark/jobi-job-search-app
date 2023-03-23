@@ -2,7 +2,7 @@
 
 // Index Page Styles
 // * {
-//   border: 1px solid white;
+//   border: 1px solid black;
 // }
 
 // Icon Section Styles ---------------
@@ -22,8 +22,6 @@
 .categories-container {
   padding: 3% 0;
 }
-
-
 
 .categories-ul {
   display: flex;
@@ -83,20 +81,23 @@
 
 .trending-button-box {
   display: flex;
+
   button {
     padding: 0%;
+
     &.trend-box-1 {
       background-color: $white;
+
       &:hover,
       &:focus {
         background-color: $accent;
         border: 1px solid $accent;
       }
     }
-    
+
     &.trend-box-2 {
       background-color: $primary-med;
-    
+
       &:hover,
       &:focus {
         background-color: $primary-dark;
@@ -118,7 +119,6 @@
 .trending-ul {
   display: flex;
   justify-content: space-between;
-  padding: 2% 0;
 
   li {
     width: 24%;
@@ -143,10 +143,399 @@
 
 // Listing Section Styles ---------------
 
-.job-listings-ul{
+.listing-section {
+  padding: 3% 0 5%;
+}
+
+.explore-jobs-link {
+  color: $primary-med;
+}
+
+.job-listings-ul {
   display: flex;
   flex-direction: column;
+
   li {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid $secondary-light;
+    margin-bottom: 1%;
+  }
+
+  .icon-box {
+    flex-basis: 10%;
+  }
+
+  h5 {
+    flex-basis: 20%;
+    margin-right: 5%;
+  }
+}
+
+.job-time-box,
+.job-location-box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+.listing-button-box {
+  display: flex;
+  justify-content: center;
+  flex-basis: 20%;
+}
+
+.save-icon-box {
+  margin-right: 5%;
+  align-self: center;
+
+  img {
+    border-radius: 50%;
+    transition: 300ms;
+
+    &:hover,
+    &:focus {
+      background-color: $primary-dark;
+    }
+  }
+}
+
+.bold-company {
+  font-weight: bold;
+}
+
+.apply-button {
+  background-color: $primary-med;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  &:hover,
+  &:focus {
+    color: $black;
+  }
+}
+
+.post-job-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outline-box {
+  justify-self: center;
+  align-self: center;
+  padding: 5px 10px;
+  margin: 2% 0;
+  border-radius: 50px;
+  border: 1px solid $black;
+
+  p {
+    display: inline;
+    font-weight: bold;
+  }
+
+  span,
+  a {
+
+    color: $primary-med;
+  }
+
+  a {
+    font-weight: 400;
+    padding: 0;
+    font-size: $fs-default;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: $black;
+    }
+  }
+}
+
+// Get Started Section
+
+.get-started-section {
+  background-image: url(../../../assets/images/person-on-laptop-2.jpg);
+  background-position: 25% center;
+  background-size: cover;
+
+  h3 {
+    color: $white;
+
+    span {
+      color: $accent;
+    }
+  }
+
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: $primary-med;
+  }
+}
+
+.section-gradient {
+  min-height: 70vh;
+  padding: 3% 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 38%, rgba(0, 0, 0, 0.7553221972382703) 100%);
+}
+
+.get-started-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 70vh;
+}
+
+.get-started-heading-box {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 44%;
+  padding: 1%;
+
+  .icon-box {
+    width: 65px;
+    height: 65px;
+  }
+
+  p {
+    color: $white;
+  }
+}
+
+.get-started-gallery-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.get-started-card {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $transparent-white;
+  border-radius: 10px;
+}
+
+.get-started-card-box {
+  display: flex;
+  padding: 7%;
+
+  .icon-container {
+    flex-basis: 20%;
+    margin-right: 4%;
+  }
+
+  p {
+    margin-bottom: 5%;
+  }
+
+  a {
+    color: $primary-med;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: 0.8px;
+
+    &:hover,
+    &:focus {
+      color: $black;
+    }
+  }
+}
+
+// Talent Section Styles ------------------
+
+.talent-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 0;
+  .talent-choose,
+  h3,
+  h4 {
+    color: $primary-med;
+  }
+  .talent-choose {
+    font-weight: bold;
+    letter-spacing: .2px;
+  }
+  h3 {
+    font-size: $fs-2xl;
+  }
+  h4 {
+    font-size: $fs-m;
+  }
+  p {
+    font-size: $fs-xs;
+    padding: 2% 0;
+  }
+}
+
+.talent-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-basis: 48%;
+  padding: 2%;
+}
+// Accordion Box Styles
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 2% 5% 0;
+  cursor: pointer;
+  img {
+    width: 2rem;
+  }
+}
+.accordion-text {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: 500ms;
+  // overflow-y: auto;
+}
+
+.accordion-text.active {
+  height: 200px;
+  overflow: auto;
+}
+
+
+
+.talent-right {
+  flex-basis: 48%;
+  position: relative;
+  max-height: 650px;
+
+}
+
+.img-pos {
+  position: absolute;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+// Peach
+.talent-top-img {
+  img {
+    object-position: top;
+    width: 321px;
+    height: 200px;
+    border-radius: 20px 0 20px 0;
+  }
+}
+
+// Swoosh
+.talent-swoosh {
+  left: 48%;
+  top: -10%;
+}
+
+// Dot Pattern
+.talent-dot-pattern {
+  right: 15%;
+  top: 5%;
+}
+
+// Search Bar
+.talent-search-bar {}
+
+// Blue Portrait
+.talent-right-img {
+  right: 15%;
+  bottom: 10%;
+
+  img {
+    width: 296px;
+    height: 323px;
+    border-radius: 20px 0 20px 0;
+  }
+}
+
+// Payment Box
+.talent-payment-box {}
+
+// Pink Portrait
+.talent-left-img {
+  top: 41%;
+
+  img {
+    object-position: top;
+    width: 195px;
+    height: 175px;
+    border-radius: 20px 0 20px 0;
+  }
+}
+
+//  Candidates
+.talent-candidate-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  padding: 5% 10% 15% 10%;
+  border-radius: 20px;
+  background-color: $white;
+    box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+}
+
+.talent-layered-imgs {
+  display: flex;
+
+  .layered-img {
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: 5px solid $white;
+    }
+  }
+
+  .blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2EEF1;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid $white;
+  }
+
+  // Circular Candidate Images
+  .layer-1 {
+    left: 10%;
+  }
+
+  .layer-2 {
+    left: 25%;
+  }
+
+  .layer-3 {
+    left: 40%;
+  }
+
+  .layer-4 {
+    left: 55%;
+  }
+
+  .layer-5 {
+    left: 70%;
   }
 }

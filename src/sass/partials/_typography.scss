@@ -3,16 +3,16 @@
 
 
 h2 {
-  @include serif($fs-3xl);
+  @include serif($fs-5xl);
   color: $white;
 }
 
 h3 {
-  @include sans-serif($fs-2xl);
+  @include sans-serif($fs-3xl);
 }
 
 h4 {
-  @include sans-serif($fs-xl);
+  @include sans-serif($fs-l);
 }
 
 h5, p, a, button {
@@ -25,7 +25,7 @@ label {
 }
 
 input::placeholder, input, select {
-  @include sans-serif($fs-xs);
+  @include sans-serif($fs-xxs);
 }
 
 a, button {
@@ -35,7 +35,7 @@ a, button {
 
 // Nav
 h1 {
-  @include serif($fs-small);
+  @include serif($fs-l);
   font-weight: bold;
   margin: 0;
   color: $white;
