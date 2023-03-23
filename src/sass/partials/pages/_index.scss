@@ -381,7 +381,7 @@
 .talent-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-basis: 48%;
   padding: 2%;
@@ -390,11 +390,13 @@
 .accordion-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .accordion-header {
   display: flex;
   justify-content: space-between;
+
   padding: 5% 2% 5% 0;
   cursor: pointer;
   img {
@@ -402,16 +404,16 @@
   }
 }
 .accordion-text {
-  position: relative;
-  height: 0;
+ height: 0;
   overflow: hidden;
   transition: 500ms;
-  // overflow-y: auto;
+  overflow-y: auto;
 }
 
 .accordion-text.active {
-  height: 200px;
-  overflow: auto;
+  min-height: 84px;
+  overflow: visible;
+
 }
 
 
@@ -419,7 +421,7 @@
 .talent-right {
   flex-basis: 48%;
   position: relative;
-  max-height: 650px;
+  height: 650px;
 
 }
 
