@@ -17,7 +17,7 @@ const TalentSection = () => {
 
   // Open/Close Accordion Text
   const updateAccordion = () => {
-    if (isHeaderClicked) {
+    if (!isHeaderClicked) {
       setAccordionClass("accordion-text active")
     } else {
       setAccordionClass("accordion-text")
