@@ -6,6 +6,7 @@
 @use './sass/partials/typography';
 @use './sass/partials/variables';
 // Component Styles
+@use './sass/partials/components/footer';
 @use './sass/partials/components/header';
 @use './sass/partials/components/header-secondary';
 @use './sass/partials/components/nav';
@@ -16,7 +17,7 @@
 // Error Handling
 
 // Media Queries
-// @use './sass/partials/media-queries';
+@use './sass/partials/media-queries/mq-index';
 
 // Local Font
 @font-face {

@@ -1,5 +1,6 @@
 // Components
 import Testimonial from "./Testimonial";
+// import HeadingBarArrows from "./HeadingBarArrows";
 // Assets
 import Client1 from "../assets/images/portrait-of-man-in-blue.jpg";
 import Client2 from "../assets/images/portrait-of-man-in-light-grey.jpg";
@@ -28,13 +29,15 @@ const ClientSection = () => {
     }
   ];
 
-  console.log(typeof {Client1});
+  // const headingH3 = "What do our clients think of us?";
 
 
   return (
     <section className="client-section">
       <div className="client-gradient">
         <div className="client-container wrapper">
+
+          {/* <HeadingBarArrows headingH3={headingH3} /> */}
           <div className="heading-box">
             <h3>What do our clients <span>think of us?</span></h3>
             <div className="heading-button-box">

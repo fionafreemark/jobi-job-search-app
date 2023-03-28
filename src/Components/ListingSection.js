@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 // Pages
 import JobListings from '../Pages/JobListings';
 // Assets
-import Bookmark from "../assets/icons/bookmark.svg"
+import Bookmark from "../assets/icons/bookmark.svg";
+import {MdOutlineDesktopMac} from "react-icons/md";
 
 const ListingSection = () => {
   return (
@@ -21,6 +22,7 @@ const ListingSection = () => {
         <ul className="job-listings-ul">
           <li>
             <div className="icon-box">
+              <MdOutlineDesktopMac />
             </div>
             <h5>Developer & expert in java c++</h5>
             <div className="job-time-box">
@@ -40,6 +42,7 @@ const ListingSection = () => {
           </li>
           <li>
             <div className="icon-box">
+              <MdOutlineDesktopMac />
             </div>
             <h5>Developer & expert in java c++</h5>
             <div className="job-time-box">
@@ -59,6 +62,7 @@ const ListingSection = () => {
           </li>
           <li>
             <div className="icon-box">
+              <MdOutlineDesktopMac />
             </div>
             <h5>Developer & expert in java c++</h5>
             <div className="job-time-box">
@@ -78,6 +82,7 @@ const ListingSection = () => {
           </li>
           <li>
             <div className="icon-box">
+              <MdOutlineDesktopMac />
             </div>
             <h5>Developer & expert in java c++</h5>
             <div className="job-time-box">
@@ -97,6 +102,7 @@ const ListingSection = () => {
           </li>
           <li>
             <div className="icon-box">
+              <MdOutlineDesktopMac />
             </div>
             <h5>Developer & expert in java c++</h5>
             <div className="job-time-box">

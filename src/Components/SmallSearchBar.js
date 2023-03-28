@@ -6,7 +6,7 @@ const SmallSearchBar = () => {
   return (
       <form className="small-search-form">
         <div className="small-keyword-box">
-          <label htmlFor="keyword">Enter Designer, Brand or Logo</label>
+          <label htmlFor="search">Enter Designer, Brand or Logo</label>
           <input type="text" id="search" placeholder="Designer, Brand, Logo" />
         </div>
         <button type="submit" className="search-button">

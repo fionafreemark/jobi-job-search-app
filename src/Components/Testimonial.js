@@ -23,7 +23,6 @@ const Testimonial = ({ title, clientQuote, clientName, clientLocation, clientImg
       </div>
     </div>
 
-
   );
 };
 

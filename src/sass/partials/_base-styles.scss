@@ -50,7 +50,7 @@ h3 {
 
 a {
   text-decoration: none;
-  padding: 10px;
+  padding: 1rem;
 
   &:hover,
   &:focus {
@@ -65,29 +65,57 @@ button {
 }
 
 .explore-link {
-  padding: 2px 5px;
-  letter-spacing: 0.2px;
-  border-bottom: 2px solid $black;
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.0.2rem;
+  border-bottom: .2rem solid $black;
+}
+
+.explore-jobs-link {
+  &:hover,
+  &:focus {
+    color: $black;
+  }
+}
+.footer-link {
+  color: $white;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
 }
 
 .button-link,
 button {
   background-color: $primary-med;
-  border: 1px solid transparent;
-  border-radius: 50px;
-  padding: 10px 20px;
+  border: 0.1rem solid transparent;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
   color: $white;
   &:hover,
   &:focus {
     background-color: $accent;
-    border: 1px solid $accent;
+    border: 0.1rem solid $accent;
   }
 }
 
 .button-link-sm {
-  border-radius: 50px;
-  padding: 5px 10px;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
   color: $white;
+}
+
+.button-link-square {
+  border-radius: 0.5rem;
+  background-color: $primary-med;
+  border: 0.1rem solid $primary-med;
+  color: $white;
+  &:hover,
+  &:focus {
+    background-color: $accent;
+    border: 0.1rem solid $accent;
+    color: $black;
+  }
 }
 
 .primary-button {
@@ -101,7 +129,7 @@ button {
 }
 
 .secondary-button {
-  border: 1px solid $accent;
+  border: 0.1rem solid $accent;
   background-color: $accent;
   color: $black;
 
@@ -113,13 +141,13 @@ button {
 }
 
 .tertiary-button {
-  border: 1px solid $transparent;
+  border: 0.1rem solid $transparent;
   background-color: $transparent-grey;
   color: $accent;
 
   &:hover,
   &:focus {
-    border: 1px solid $accent;
+    border: 0.1rem solid $accent;
     background-color: $transparent;
     color: $white;
   }

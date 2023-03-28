@@ -2,9 +2,6 @@
 @use '../mixins' as *;
 
 // Index Page Styles
-// * {
-//   border: 1px solid black;
-// }
 
 // Icon Section Styles ---------------
 .icon-section {
@@ -16,6 +13,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 3% 0;
+  img {
+    width: 15%;
+  }
 }
 
 // Categories Section Styles
@@ -30,6 +30,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 5% 0;
+  li {
+    flex-basis: 10%;
+  }
 }
 
 .cat-buttons {
@@ -37,9 +40,10 @@
   justify-content: center;
   align-items: center;
   margin: 1% 0;
+  // margin-right: 0;
 
   img {
-    max-height: 22px;
+    max-height: 2.2rem;
     padding-right: 10%;
   }
 }
@@ -92,7 +96,7 @@
       &:hover,
       &:focus {
         background-color: $accent;
-        border: 1px solid $accent;
+        border: 0.1rem solid $accent;
       }
     }
 
@@ -102,7 +106,7 @@
       &:hover,
       &:focus {
         background-color: $primary-dark;
-        border: 1px solid $primary-dark;
+        border: 0.1rem solid $primary-dark;
       }
     }
   }
@@ -112,8 +116,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
 }
 
@@ -130,7 +134,7 @@
 .trending-img-div {
   img {
     object-fit: cover;
-    min-height: 350px;
+    min-height: 35rem;
     width: 100%;
   }
 
@@ -160,17 +164,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
-    border: 1px solid $secondary-light;
+    border-radius: 1rem;
+    border: 0.1remrem solid $secondary-light;
     margin-bottom: 1%;
   }
 
   .icon-box {
+    display: flex;
+    justify-content: center;
     flex-basis: 10%;
+    svg {
+      width: 4rem;
+      height: 4rem;
+      color: $primary-dark;
+    }
   }
 
   h5 {
-    flex-basis: 20%;
+    flex-basis: 22%;
     margin-right: 5%;
   }
 }
@@ -193,6 +204,8 @@
   align-self: center;
 
   img {
+    min-height: 3.5rem;
+    min-width: 3.5rem;
     border-radius: 50%;
     transition: 300ms;
 
@@ -228,10 +241,10 @@
 .outline-box {
   justify-self: center;
   align-self: center;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   margin: 2% 0;
-  border-radius: 50px;
-  border: 1px solid $black;
+  border-radius: 5rem;
+  border: 0.1rem solid $black;
 
   p {
     display: inline;
@@ -276,8 +289,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 52px;
-    height: 52px;
+    width: 5.2rem;
+    height: 5.2rem;
     border-radius: 50%;
     background-color: $primary-med;
   }
@@ -304,8 +317,8 @@
   padding: 1%;
 
   .icon-box {
-    width: 65px;
-    height: 65px;
+    width: 6.5rem;
+    height: 6.5rem;
   }
 
   p {
@@ -323,7 +336,7 @@
   display: flex;
   justify-content: space-between;
   background-color: $transparent-white;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .get-started-card-box {
@@ -343,7 +356,7 @@
     color: $primary-med;
     text-transform: uppercase;
     padding: 0;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.08rem;
 
     &:hover,
     &:focus {
@@ -420,7 +433,7 @@
 }
 
 .accordion-text.active {
-  min-height: 84px;
+  min-height: 8.4rem;
   overflow: visible;
 
 }
@@ -429,10 +442,10 @@
 .talent-right {
   flex-basis: 48%;
   position: relative;
-  max-height: 650px;
-  min-height: 650px;
-  max-width: 650px;
-  min-width: 650px;
+  max-height: 65rem;
+  min-height: 65rem;
+  max-width: 65rem;
+  min-width: 65rem;
 }
 
 .img-pos {
@@ -447,9 +460,9 @@
 .talent-top-img {
   img {
     object-position: left 20%;
-    width: 321px;
-    height: 200px;
-    border-radius: 35px 0 35px 0;
+    width: 32.1rem;
+    height: 20rem;
+    border-radius: 3.5rem 0 3.5rem 0;
   }
 }
 
@@ -475,8 +488,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 420px;
-  height: 70px;
+  width: 42rem;
+  height: 7rem;
   background-color: $transparent;
 
   .small-keyword-box {
@@ -495,25 +508,25 @@
     height: 100%;
     width: 100%;
     padding: 5% 10%;
-    border-radius: 10px;
-    box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+    border-radius: 1rem;
+    box-shadow: -0.7rem 1.1rem 3rem 1.7rem rgba(0, 0, 0, 0.11);
   }
 
   .search-button {
     padding: 0;
     width: auto;
     background-color: $white;
-    border-radius: 10px;
-    box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+    border-radius: 1rem;
+    box-shadow: -0.7rem 1.1rem 3rem 1.7rem rgba(0, 0, 0, 0.11);
   }
 
   .search-button-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65px;
-    height: 65px;
-    border-radius: 10px;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 1rem;
     background-color: $primary-med;
   }
 
@@ -526,9 +539,9 @@
   bottom: 10%;
 
   img {
-    width: 296px;
-    height: 323px;
-    border-radius: 35px 0 30px 0;
+    width: 29.6rem;
+    height: 32.3rem;
+    border-radius: 3.5rem 0 3rem 0;
   }
 }
 
@@ -541,9 +554,9 @@
 
   img {
     object-position: top;
-    width: 195px;
-    height: 175px;
-    border-radius: 0 35px 0 35px;
+    width: 19.5rem;
+    height: 17.5rem;
+    border-radius: 0 3.5rem 0 3.5rem;
   }
 }
 
@@ -554,9 +567,9 @@
   flex-direction: column;
   bottom: 0;
   padding: 2% 10% 15% 10%;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   background-color: $white;
-  box-shadow: -7px 11px 32px 17px rgba(0, 0, 0, 0.11);
+  box-shadow: -0.7rem 1.1rem 3rem 1.7rem rgba(0, 0, 0, 0.11);
 }
 
 .talent-layered-imgs {
@@ -564,10 +577,10 @@
 
   .layered-img {
     img {
-      width: 70px;
-      height: 70px;
+      width: 7rem;
+      height: 7rem;
       border-radius: 50%;
-      border: 5px solid $white;
+      border: 0.5rem solid $white;
     }
   }
 
@@ -576,10 +589,10 @@
     justify-content: center;
     align-items: center;
     background-color: #E2EEF1;
-    width: 70px;
-    height: 70px;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
-    border: 5px solid $white;
+    border: 0.5rem solid $white;
   }
 
   // Layered/Circular Candidate Images
@@ -612,8 +625,8 @@
 }
 
 .client-gradient {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 38%, rgba(0, 0, 0, 0.6) 100%);
-    padding: 0 0 8% 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 38%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 0 0 8% 0;
 }
 
 .client-container {
@@ -622,6 +635,7 @@
 
   .heading-box {
     align-items: flex-end;
+
     h3 {
       color: $white;
       padding: 0;
@@ -644,12 +658,12 @@
   justify-content: space-between;
   flex-basis: 45%;
   padding: 4%;
-  border-radius: 10px;
+  border-radius: 1rem;
   background-color: $white;
 
   .client-quote {
     margin: 5% 0;
-    line-height: 50px;
+    line-height: 5rem;
     font-size: $fs-m;
   }
 }
@@ -674,22 +688,371 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   p {
     font-size: $fs-default;
     margin: 0;
   }
+
   .client-name {
     font-weight: bold;
   }
+
   .client-location {
     color: $secondary-dark;
   }
 
   img {
-    width: 60px;
-    height: 60px;
+    width: 6rem;
+    height: 6rem;
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
   }
+}
+
+// Jobi Guides Section Styles ------------------------
+
+.jobi-guides-section {
+  padding: 0 0 5% 0;
+
+  h3 {
+    color: $primary-med;
+  }
+}
+
+.guides-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guides-li {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  padding: 1%;
+  transition: 500ms;
+
+  &:hover,
+  &:focus {
+    box-shadow: -0.7rem 1.1rem 3rem 1.7rem rgba(0, 0, 0, 0.11);
+  }
+}
+
+.guide-img {
+  object-fit: cover;
+  object-position: center;
+  max-height: 27.5rem;
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+.guides-date {
+  color: $secondary-med;
+  font-size: $fs-xxs;
+  margin-bottom: 5%;
+}
+
+.guides-h4 {
+  font-size: $fs-m;
+  margin-bottom: 8%;
+  line-height: 3.4rem;
+}
+
+.guides-content {
+  font-size: $fs-xxs;
+  margin-bottom: 5%;
+  line-height: 3rem;
+}
+
+.guides-arrow-link {
+
+  &:hover,
+  &:focus {
+    transform: translateX(15%);
+  }
+}
+
+// Collaboration Section -----------------------
+.collaboration-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0 4% 0;
+
+  .collaboration-left,
+  .collaboration-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 49%;
+  }
+
+  .collaboration-graphic-box {
+    position: relative;
+    max-height: 60rem;
+    height: 60rem;
+    max-width: 60rem;
+    width: 60rem;
+  }
+
+  .outer-circle,
+  .circle-graphic,
+  .inner-circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 0.1rem solid $secondary-light;
+  }
+
+  .circle-graphic {
+    background-color: $white;
+    transition: 300ms;
+
+    &:hover {
+      background-color: $secondary-light;
+      border: 0.1rem solid $primary-med;
+    }
+  }
+
+  .outer-circle {
+    width: 48.9rem;
+    height: 48.9rem;
+    top: 5%;
+    right: 5%;
+  }
+
+  .inner-circle {
+    width: 25rem;
+    height: 25rem;
+    top: 23.5%;
+    right: 23.5%;
+    transition: 300ms;
+
+    &:hover {
+      background-color: $secondary-light;
+      border: 0.1rem solid $primary-med;
+    }
+  }
+
+  // Circle Icon Styles
+  .circle-icon svg {
+    position: absolute;
+  }
+
+  // Circle 1/2 + Icon
+  .circle-graphic-1,
+  .circle-graphic-3 {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+
+  // Circle 1 + Icon - Instagram
+  .circle-graphic-1 {
+    left: -10%;
+    top: 25%;
+  }
+
+  .circle-icon-1 svg {
+    width: 5rem;
+    height: 5rem;
+    color: rgb(218, 4, 111);
+    left: 26%;
+    top: 25%;
+  }
+
+  // Circle 2 + Icon - Google
+  .circle-graphic-2 {
+    width: 6.5rem;
+    height: 6.5rem;
+    right: 36%;
+    top: -5%;
+  }
+
+  .circle-icon-2 svg {
+    width: 3rem;
+    height: 3rem;
+    color: rgb(4, 86, 218);
+    left: 25%;
+    top: 25%;
+  }
+
+  // Circle 3 + Icon - Messenger
+  .circle-graphic-3 {
+    right: -6%;
+    top: 18%;
+  }
+
+  .circle-icon-3 svg {
+    width: 5rem;
+    height: 5rem;
+    color: rgb(4, 161, 218);
+    left: 26%;
+    top: 25%;
+  }
+
+  // Circle 4 + Icon - Slack
+  .circle-graphic-4 {
+    width: 14.8rem;
+    height: 14.8rem;
+    right: 10%;
+    bottom: -8%;
+  }
+
+  .circle-icon-4 svg {
+    width: 7.5rem;
+    height: 7.5rem;
+    color: rgb(218, 4, 111);
+    left: 25%;
+    top: 25%;
+  }
+
+  // Circle 5 + Icon
+  .circle-graphic-5 {
+    width: 8.1rem;
+    height: 8.1rem;
+    bottom: 6%;
+    left: 6%;
+  }
+
+  .circle-icon-5 svg {
+    width: 4rem;
+    height: 4rem;
+    color: rgb(1, 116, 32);
+    left: 25%;
+    top: 25%;
+  }
+
+  // Circle 6 + Icon
+  .circle-graphic-6 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    right: 30%;
+    top: 35%;
+
+    // Jobi Logo
+    .circle-logo-icon {
+      .circle-primary {
+        position: absolute;
+        left: 40%;
+        width: 5rem;
+        height: 5rem;
+      }
+
+      .circle-secondary {
+        position: absolute;
+        left: 10%;
+        width: 5rem;
+        height: 5rem;
+      }
+
+      h4 {
+        position: absolute;
+        color: $black;
+        top: 40%;
+        right: 20%;
+        font-size: 3.7rem;
+      }
+    }
+  }
+
+  .collaboration-right {
+    flex-direction: column;
+    padding: 5%;
+
+    p:first-of-type {
+      text-transform: uppercase;
+      color: $secondary-med;
+      margin: 2% 0;
+    }
+
+    .collaboration-text {
+      line-height: 3.2rem;
+      margin: 2% 0;
+    }
+
+    .learn-more-link {
+      display: flex;
+      align-items: center;
+      min-width: 16rem;
+      margin: 2% 0;
+      padding-left: 0;
+      transition: 500ms;
+
+      img {
+        padding: 0 2%;
+      }
+
+      &:hover,
+      &:focus {
+        transform: translateX(5%);
+      }
+    }
+  }
+
+}
+
+
+// Job Portal Section ---------------------------
+
+.job-portal-section {
+  @include bkgd("../../../assets/images/group-at-shared-work-table.jpg");
+}
+
+.job-portal-gradient {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 38%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.job-portal-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 2% 0;
+
+  .portal-left {
+    flex-basis: 62%;
+    padding: 5%;
+
+    h3 {
+      color: $white;
+      padding: 0;
+    }
+  }
+
+  .portal-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 38%;
+    padding: 3%;
+
+    p {
+      padding: 5% 0;
+      line-height: 3.8rem;
+      color: $white;
+    }
+
+    .job-portal-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      a {
+        padding: 1.5rem 2.5rem;
+      }
+
+      a:first-of-type {
+        margin-right: 3%;
+        background-color: $transparent;
+        color: $white;
+
+
+        &:hover,
+        &:focus {
+          background-color: $accent;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+* {
+  border: 1px solid pink;
 }
