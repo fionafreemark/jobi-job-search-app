@@ -1,0 +1,132 @@
+@use '../variables' as *;
+
+// Footer Styles ---------------------------------
+
+footer {
+  background-color: $primary-dark;
+
+  .footer-link-secondary {
+    color: $white;
+  }
+
+  h4 {
+    font-size: $fs-m;
+    font-weight: bold;
+    color: $white;
+    margin-bottom: 10%;
+  }
+
+}
+
+// Footer Nav 
+.footer-nav,
+.links-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.links-box {
+  justify-content: space-between;
+  flex-basis: 100%;
+  padding: 5% 0;
+  .jobi-h4 {
+    font-size: $fs-xl;
+  }
+
+  a, p {
+    font-size: 1.7rem;
+    padding: 0;
+    margin: 1.2rem 0;
+    font-weight: 400;
+    color: $primary-light
+  }
+
+  label {
+    font-size: $fs-xs;
+    color: $white;
+  }
+
+  p {
+    font-size: $fs-xxs;
+  }
+}
+
+.jobi-box {
+  position: relative;
+  .square-shape {
+    position: absolute;
+    top: 250%;
+  }
+}
+
+
+.newsletter-box {
+  label, form, p {
+    display: block;
+    margin: 4% 0;
+  }
+  form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  input[type="email"] {
+    width: 75%;
+    padding: 4%;
+    color: $white;
+    background-color: $transparent;
+    &::placeholder {
+      color: $white;
+    }
+  }
+  button {
+    width: 20%;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: $white;
+  }
+}
+
+
+// Footer Bottom Container
+.footer-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 3% 0;
+  .left-links {
+    flex-basis: 30%;
+    a:hover,
+    a:focus {
+      color: $accent;
+    }
+    a:first-of-type {
+      margin-right: 1%;
+    }
+  }
+  div.copyright-text {
+    flex-basis: 40%;
+    text-align: center;
+    p {
+      color: $primary-light;
+    }
+  }
+  .social-links-ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 30%;
+    img {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+    a {
+      &:hover,
+      &:focus {
+        transform: translateY(-10%);
+      }
+    }
+  }
+}

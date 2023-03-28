@@ -11,23 +11,23 @@ nav {
 
 .nav-left-box {
   display: flex;
-  flex-basis: 60%;
+  flex-basis: 68%;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-right-box {
   display: flex;
-  flex-basis: 40%;
+  flex-basis: 38%;
   justify-content: flex-end;
 
   a:first-of-type::after {
     position: absolute;
-    top: 16px;
-    right: -13px;
+    top: 1.6rem;
+    right: -1.3rem;
     content: "";
-    width: 20px;
-    height: 2px;
+    width: 2rem;
+    height: 0.2rem;
     background-color: $secondary-med;
     rotate: 90deg;
   }
@@ -43,8 +43,8 @@ nav {
 
 .logo-circle-box {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
 }
 
@@ -54,18 +54,18 @@ nav {
 }
 
 .circle-secondary {
-  left: -10px;
+  left: -1rem;
   background-color: $primary-med-translucent;
 }
 
 h1 {
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 // Category Button Styles
 
 .category-icon {
-  padding: 0 5px;
+  padding: 0 0.5rem;
 }
 
 // Main Nav List Styles

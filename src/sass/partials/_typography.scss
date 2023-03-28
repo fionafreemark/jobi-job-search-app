@@ -34,7 +34,7 @@ a, button {
 }
 
 // Nav
-h1 {
+h1, .jobi-h4 {
   @include serif($fs-l);
   font-weight: bold;
   margin: 0;

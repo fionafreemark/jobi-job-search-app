@@ -1,10 +1,12 @@
 // Components
+// import MobileNav from "./MobileNav";
 import Nav from "./Nav";
 import SearchBar from "./SearchBar";
 
 const HeaderIndex = () => {
   return (
     <header className="index-header">
+      {/* <MobileNav /> */}
       <Nav />
       <div className="index-header-box wrapper">
         <h2>Find & Hire Experts for any job.</h2>

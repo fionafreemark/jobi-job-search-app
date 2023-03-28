@@ -16,7 +16,7 @@ const CategoriesSection = () => {
     <section className="categories-section wrapper">
       <div className="categories-container">
 
-        <div className="header-box">
+        <div className="heading-box">
           <h4>Most In-Demand Categories</h4>
           <div className="categories-link-box">
             <Link to={'/job-listings'} element={<JobListings />} className="explore-link">Explore all fields &#62;

@@ -1,0 +1,120 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
+// Index Page Styles
+
+// ----------------------- 1425px -----------------------
+@media (max-width: 1425px) {
+
+  // Global Styles
+  h2 {
+    font-size: $fs-4xl;
+  }
+
+  h3,
+  .talent-section h3 {
+    font-size: $fs-2xl-b;
+  }
+
+  p {
+    font-size: $fs-xs;
+  }
+
+  // Header
+  // Icon Section
+  // Categories Section
+  .categories-ul li {
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+  }
+
+  // Trending Section
+    .trending-img-div {
+      img {
+        min-height: 30rem;
+      }
+      p {
+        font-size: $fs-xxs;
+      }
+    }
+  // Listing Section
+    .job-listings-ul {
+ 
+      h5 {
+        margin-right: 1%;
+      }
+    }
+  // Get Started Section
+  // Talent Section
+  // Client Section
+  // Jobi Guides Section
+  // Collab Section
+  // Job Portal Section
+
+}
+
+
+// ----------------------- 1250px -----------------------
+
+@media (max-width: 1250px) {
+
+  // Global Styles
+  // Header
+  // Icon Section
+  // Categories Section
+  // Trending Section
+  // Listing Section
+  // Get Started Section
+  // Talent Section
+  // Client Section
+  // Jobi Guides Section
+  // Collab Section
+  // Job Portal Section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------- 1250px -----------------------
+// ----------------------- 1250px -----------------------
+
+
+// Global Styles
+// Header
+// Icon Section
+// Trending Section
+// Listing Section
+// Get Started Section
+// Talent Section
+// Client Section
+// Jobi Guides Section
+// Collab Section
+// Job Portal Section
