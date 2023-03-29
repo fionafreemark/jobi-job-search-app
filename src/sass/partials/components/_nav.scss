@@ -2,24 +2,55 @@
 
 // General Positioning
 
-nav {
+.nav-bar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 3%;
+
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 100%;
 }
 
 .nav-left-box {
   display: flex;
-  flex-basis: 68%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  a {
+    display: inline-block;
+    color: $white;
+  }
+
+  .category-link {
+    img {
+      margin-right: 1rem;
+    }
+
+    text-align: center;
+    width: 17rem;
+  }
+}
+
+
+
 .nav-right-box {
   display: flex;
-  flex-basis: 38%;
   justify-content: flex-end;
+  align-items: center;
+  flex-basis: 60%;
 
   a:first-of-type::after {
     position: absolute;
@@ -33,6 +64,39 @@ nav {
   }
 }
 
+// Main Nav Link Styles
+
+.menu-link {
+
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
+
+  &.login-link {
+    color: $accent;
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+}
+
+.post-job-link {
+  position: relative;
+  color: white;
+}
+
+.secondary-button.hire-talents {
+  color: $black;
+  &:hover,
+  &:focus {
+    background-color: rgba(196, 196, 196, 0.3490196078);
+    border: 1px solid $accent;
+    color: $white;
+  }
+}
 
 // Logo Styles
 
@@ -62,44 +126,86 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-// Category Button Styles
-
-.category-icon {
-  padding: 0 0.5rem;
+h1, .logo-circle-box, .h1-linkk {
+  z-index: 50;
 }
 
-// Main Nav List Styles
-.nav-ul {
-  display: flex;
 
-  a {
+// Mobile Nav Styles
+.mobile-nav {
+  display: none;
+}
+
+.nav-menu.unclicked{
+  display: none;
+  padding: 1rem;
+  background-color: $transparent;
+  font-size: $fs-m;
+
+  &:hover,
+  &:focus {
+    padding: 1rem;
+    border: 1px solid $transparent;
+    background-color: $transparent;
+  }
+
+  button {
+    border: 1px solid $transparent;
+    border-radius: 0;
+  }
+}
+
+.nav-menu.clicked {
+  display: inline-block;
+    padding: 1rem;
+    background-color: $transparent;
+    font-size: $fs-m;
+  
+    &:hover,
+    &:focus {
+      padding: 1rem;
+      border: 1px solid $transparent;
+      background-color: $transparent;
+    }
+  
+    button {
+      border: 1px solid $transparent;
+      border-radius: 0;
+    }
+}
+
+.nav-button {
+  position: fixed;
+  z-index: 20;
+  right: 6.5rem;
+  top: 2.5rem;
+  background-color: $transparent;
+  font-size: $fs-l;
+  transition: 500ms;
+}
+
+.nav-button.clicked {
+  display: none;
+  color: $white;
+  transition: 300ms;
+  rotate: -45deg;
+
+  &:hover,
+  &:focus {
+    border: none;
+  }
+
+}
+
+.nav-button.unclicked {
+  display: none;
+  color: $white;
+  transition: 300ms;
+  rotate: 0deg;
+
+  &:hover,
+  &:focus {
+    border: none;
     color: $white;
-  }
-}
-
-.menu-link,
-.button-link {
-  margin: 0 1%;
-}
-
-.menu-link {
-
-  &:hover,
-  &:focus {
-    color: $accent;
-  }
-}
-
-.post-job-link {
-  position: relative;
-  color: white;
-}
-
-.login-link {
-  color: $accent;
-
-  &:hover,
-  &:focus {
-    color: $black;
   }
 }
