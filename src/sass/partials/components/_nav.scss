@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin-top: 1rem;
 }
 
 .desktop-nav {
@@ -35,6 +35,8 @@
   }
 
   .category-link {
+    margin-right: 0.5rem;
+
     img {
       margin-right: 1rem;
     }
@@ -43,8 +45,6 @@
     width: 17rem;
   }
 }
-
-
 
 .nav-right-box {
   display: flex;
@@ -90,6 +90,7 @@
 
 .secondary-button.hire-talents {
   color: $black;
+
   &:hover,
   &:focus {
     background-color: rgba(196, 196, 196, 0.3490196078);
@@ -126,18 +127,30 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-h1, .logo-circle-box, .h1-linkk {
+h1,
+.logo-circle-box,
+.h1-link {
   z-index: 50;
 }
 
+.h1-link {
+  border: 1px solid $transparent;
+  padding: 0.4rem;
+  margin-right: 1rem;
+
+  &:hover,
+  &:focus {
+    border: 1px solid white;
+  }
+}
 
 // Mobile Nav Styles
 .mobile-nav {
   display: none;
 }
 
-.nav-menu.unclicked{
-  display: none;
+.nav-menu.unclicked,
+.nav-menu.clicked {
   padding: 1rem;
   background-color: $transparent;
   font-size: $fs-m;
@@ -149,63 +162,48 @@ h1, .logo-circle-box, .h1-linkk {
     background-color: $transparent;
   }
 
+  &:hover .nav-button,
+  &:focus .nav-button {
+    color: $accent;
+  }
+
   button {
     border: 1px solid $transparent;
     border-radius: 0;
   }
 }
 
-.nav-menu.clicked {
-  display: inline-block;
-    padding: 1rem;
-    background-color: $transparent;
-    font-size: $fs-m;
-  
-    &:hover,
-    &:focus {
-      padding: 1rem;
-      border: 1px solid $transparent;
-      background-color: $transparent;
-    }
-  
-    button {
-      border: 1px solid $transparent;
-      border-radius: 0;
-    }
+.nav-menu.unclicked {
+  display: none;
 }
 
-.nav-button {
+.nav-menu-clicked {
+  display: inline-block;
+}
+
+.nav-button.clicked,
+.nav-button.unclicked {
   position: fixed;
   z-index: 20;
   right: 6.5rem;
   top: 2.5rem;
+  display: none;
   background-color: $transparent;
+  color: $white;
   font-size: $fs-l;
   transition: 500ms;
+
+  &:focus,
+  &:hover {
+    color: $accent;
+  }
+
 }
 
 .nav-button.clicked {
-  display: none;
-  color: $white;
-  transition: 300ms;
   rotate: -45deg;
-
-  &:hover,
-  &:focus {
-    border: none;
-  }
-
 }
 
 .nav-button.unclicked {
-  display: none;
-  color: $white;
-  transition: 300ms;
   rotate: 0deg;
-
-  &:hover,
-  &:focus {
-    border: none;
-    color: $white;
-  }
 }

@@ -116,7 +116,7 @@ const Nav = () => {
             <div className="nav-right-box">
               <Link className="menu-link post-job-link" to={''} element={''} onClick={closeMenu}>Post Job</Link>
               <Link className="menu-link login-link" to={''} element={''} onClick={closeMenu}>Login</Link>
-              <Link className="button-link secondary-button" to={''} element={''} onClick={closeMenu}>Hire Top Talents</Link>
+              <Link className="button-link secondary-button hire-talents" to={''} element={''} onClick={closeMenu}>Hire Top Talents</Link>
             </div>
           </div>
         </nav>
