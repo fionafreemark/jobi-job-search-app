@@ -31,7 +31,9 @@ const TrendingSection = () => {
           <li>
             <Link to={'/job-listings'} element={<JobListings />} className="">
               <div className="trending-img-div">
+                <div className="img-container">
                 <img src={PersonLaptop1} alt="Man smiling while working on a laptop." />
+                </div>
                 <p>WordPress Development.</p>
               </div>
             </Link>
@@ -39,7 +41,9 @@ const TrendingSection = () => {
           <li>
             <Link to={'/job-listings'} element={<JobListings />} className="">
               <div className="trending-img-div">
+                <div className="img-container">
                 <img src={PersonLaptop2} alt="Woman leaning against couch while on laptop." />
+                </div>
                 <p>Audio & Video Editing.</p>
               </div>
             </Link>
@@ -47,7 +51,9 @@ const TrendingSection = () => {
           <li>
             <Link to={'/job-listings'} element={<JobListings />} className="">
               <div className="trending-img-div">
+                <div className="img-container">
                 <img src={PersonLaptop3} alt="Person on laptop while sitting on an outdoor patio." />
+                </div>
                 <p>Product & Branding Design.</p>
               </div>
             </Link>
@@ -55,7 +61,9 @@ const TrendingSection = () => {
           <li>
             <Link to={'/job-listings'} element={<JobListings />} className="">
               <div className="trending-img-div">
+                <div className="img-container">
                 <img src={PersonLaptop4} alt="Woman on tablet at dining table." />
+                </div>
                 <p>Admin & Customer Support.</p>
               </div>
             </Link>

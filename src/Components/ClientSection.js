@@ -4,7 +4,7 @@ import Testimonial from "./Testimonial";
 // Assets
 import Client1 from "../assets/images/portrait-of-man-in-blue.jpg";
 import Client2 from "../assets/images/portrait-of-man-in-light-grey.jpg";
-import LeftArrowBlack from "../assets/icons/back-arrow-icon-black.svg";
+import LeftArrowBlack from "../assets/icons/back-arrow-icon-short-white.svg";
 import RightArrowWhite from "../assets/icons/next-arrow-white.svg";
 
 const ClientSection = () => {

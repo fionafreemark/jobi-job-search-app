@@ -13,22 +13,22 @@ const Footer = () => {
         <div className="footer-nav-container">
           <nav className="footer-nav" aria-label="Secondary Navigation Menu">
             <div className="links-box">
-            <div className="jobi-box">
-              <div className="logo-container">
-                <div className="logo-circle-box circle-primary"></div>
-                <div className="logo-circle-box circle-secondary"></div>
-                <h4 className="jobi-h4">jobi</h4>
-                <div className="square-shape">
-                  <img src={Square} alt="" />
+              <div className="jobi-box">
+                <div className="logo-container">
+                  <div className="logo-circle-box circle-primary"></div>
+                  <div className="logo-circle-box circle-secondary"></div>
+                  <h4 className="jobi-h4">jobi</h4>
+                  <div className="square-shape">
+                    <img src={Square} alt="" />
+                  </div>
                 </div>
-              </div>
-            </div> {/* End of jobi-box */}
+              </div> {/* End of jobi-box */}
               {/* LINKS UL--------------- */}
               <ul className="links-box-ul">
-                <li>
+                <li >
                   <h4>Links</h4>
                 </li>
-                <li>
+                <li className="footer-accordion">
                   <Link className="footer-link" to={''} element={''}>
                     Pricing
                   </Link>
