@@ -154,6 +154,7 @@ h1,
   padding: 1rem;
   background-color: $transparent;
   font-size: $fs-m;
+  cursor: pointer;
 
   &:hover,
   &:focus {
@@ -165,6 +166,10 @@ h1,
   &:hover .nav-button,
   &:focus .nav-button {
     color: $accent;
+  }
+
+  &:visited .nav-button {
+    color: $white;
   }
 
   button {

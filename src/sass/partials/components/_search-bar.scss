@@ -8,7 +8,7 @@
 .search-form {
   display: flex;
   justify-content: space-between;
-  width: 80rem;
+  min-width: 80rem;
 }
 
 .keyword-box,
@@ -37,7 +37,7 @@ input, select {
 .search-button {
   width: 20%;
   border-radius: 0 1rem 1rem 0;
-  border: none;
+  border: 0.1rem solid $transparent;
   background-color: $accent;
   &:hover,
   &:focus {

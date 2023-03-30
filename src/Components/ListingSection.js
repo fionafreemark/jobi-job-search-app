@@ -123,10 +123,11 @@ const ListingSection = () => {
         </ul>
         <div className="post-job-container">
           <div className="outline-box">
-          <p>Do you want to post a job for your company? <span>We can help. </span>
-          </p>
+          <p>Do you want to post a job for your company? <span>We can help.  
           <Link to={'/job-listings'} element={<JobListings />} className=""> Click here.
           </Link>
+          </span>
+          </p>
           </div>
         </div>
       </div>

@@ -9,10 +9,10 @@ const Accordion = ({ title, content }) => {
 
   return (
       <div className="accordion-container">
-        <div className="accordion-header" onClick={() => setIsActive(!isActive)}>
+        <button className="accordion-header" onClick={() => setIsActive(!isActive)}>
           <h4>{title}</h4>
           {!isActive ? <img src={DownArrow} alt="" /> : <img src={UpArrow} alt="" />}
-        </div>
+        </button>
         {isActive && <div className="accordion-content"><p>{content}</p></div>}
       </div>
   );

@@ -7,9 +7,7 @@
 @media (max-width: 1425px) {
 
   // Global Styles
-  h2 {
-    font-size: $fs-4xl;
-  }
+
 
   h3,
   .talent-section h3 {
@@ -21,12 +19,14 @@
   }
 
   // Header
+  h2 {
+    font-size: $fs-4xl;
+  }
+
   // Icon Section
   // Categories Section
   .categories-ul li {
-    display: flex;
-    justify-content: center;
-    flex-basis: 30%;
+    flex-basis: 25%;
   }
 
   // Trending Section
@@ -54,6 +54,12 @@
   // Jobi Guides Section
   // Collab Section
   // Job Portal Section
+  .job-portal-container {
+    .portal-left {
+      padding: 5% 2%;
+      flex-basis: 50%;
+    }
+  }
 
 }
 
@@ -64,6 +70,35 @@
 
   // Global Styles
   // Header
+  .index-header-box {
+    width: 100%;
+    margin-top: 15%;
+  }
+
+  .index-header {
+    justify-content: center;
+  }
+
+  .nav-bar {
+    position: fixed;
+    top: -1rem;
+    bottom: 90%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.888);
+    z-index: 40;
+  }
+
+  .h1-link {
+    position: fixed;
+    top: 1.1rem;
+    left: 5rem;
+  }
+
+  h2 {
+    font-size: $fs-3xl;
+  }
+
   // Nav Styles - Mobile Menu
 
   .nav-menu.unclicked,
@@ -72,39 +107,30 @@
     display: block;
   }
 
-  .nav-ul.unclicked {
+  .nav-ul.unclicked,
+  .desktop-nav,
+  .nav-ul .category-link {
     display: none;
   }
 
-  
-
-  .desktop-nav {
-    display: none;
-  }
-
-  
   .mobile-nav {
     display: flex;
-    
-
-    .category-link {
-      display: none;
-    }
 
     .nav-ul {
-      flex-direction: column;
-      min-width: 25rem;
       position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(22, 22, 22, 0.822);
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 25rem;
+      background-color: rgba(22, 22, 22, 0.822);
+
       li {
         margin-bottom: 2rem;
+
         a {
           font-size: $fs-m;
         }
@@ -112,7 +138,6 @@
     }
 
     .nav-left-box {
-
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -125,62 +150,976 @@
     }
   }
 
-
-
   // Icon Section
   // Categories Section
   // Trending Section
+  .trending-ul {
+    flex-wrap: wrap;
+
+    li {
+      width: 49%;
+    }
+  }
+
   // Listing Section
+  .job-listings-ul {
+    .icon-box {
+      flex-basis: 6%;
+    }
+
+    h5,
+    .job-time-box,
+    .job-location-box {
+      flex-basis: 23%;
+    }
+
+    .listing-button-box {
+      flex-basis: 18%;
+    }
+  }
+
   // Get Started Section
+  .get-started-card-box {
+    p {
+      font-size: $fs-xxs;
+    }
+
+    a {
+      letter-spacing: 0rem;
+    }
+  }
+
   // Talent Section
+
+  .talent-section {
+    p {
+      font-size: $fs-xxs;
+    }
+  }
+
+  .talent-right {
+    margin: 10% auto;
+    max-height: 42rem;
+    min-height: 42rem;
+    max-width: 42rem;
+    min-width: 42rem;
+  }
+
+  // Peach Portrait
+  .talent-top-img {
+    img {
+      width: 22rem;
+      height: 14rem;
+    }
+  }
+
+  // Swoosh
+  .talent-swoosh {
+    left: 52%;
+    top: -12%;
+    width: 8rem;
+
+  }
+
+  // Dot Pattern {
+  .talent-dot-pattern {
+    width: 8.2rem;
+  }
+
+  // Search Bar
+  .small-search-form {
+    width: 29rem;
+    height: 4rem;
+
+    input[type="text"] {
+      padding: 5%;
+    }
+
+    .search-button-box {
+      width: 4rem;
+      height: 4rem;
+
+      img {
+        width: 1.6rem;
+      }
+    }
+  }
+
+  // Grey Portrait
+  .talent-right-img {
+    right: 8%;
+
+    img {
+      width: 20rem;
+      height: 22rem;
+    }
+  }
+
+  // Pink Portrait
+  .talent-left-img {
+    top: 41%;
+
+    img {
+      width: 15rem;
+      height: 12rem;
+    }
+  }
+
+  //  Candidates
+  .talent-candidate-box {
+    padding: 2% 4% 10% 4%;
+  }
+
+  .talent-layered-imgs {
+
+    .layered-img {
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+
+    .blue-box {
+      width: 4rem;
+      height: 4rem;
+
+    }
+  }
+
   // Client Section
   // Jobi Guides Section
   // Collab Section
+
+  .collaboration-graphic-box {
+    max-height: 40rem;
+    height: 40rem;
+    max-width: 40rem;
+    width: 40rem;
+  }
+
+  // Circles
+  .outer-circle {
+    width: 34rem;
+    height: 34rem;
+  }
+
+  .inner-circle {
+    width: 17.5rem;
+    height: 17.5rem;
+  }
+
+  .circle-graphic-1,
+  .circle-graphic-3 {
+    width: 7.35rem;
+    height: 7.35rem;
+  }
+
+  .circle-graphic-2 {
+    width: 4.55rem;
+    height: 4.55rem;
+  }
+
+  .circle-graphic-4 {
+    width: 10.36rem;
+    height: 10.36rem;
+  }
+
+  .circle-graphic-5 {
+    width: 5.67rem;
+    height: 5.67rem;
+  }
+
+  //Icons
+  .circle-icon-1 svg,
+  .circle-icon-3 svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .circle-icon-2 svg {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
+
+  .circle-icon-4 svg {
+    width: 5.25rem;
+    height: 5.25rem;
+  }
+
+  .circle-icon-5 svg {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  // Circle 6 + Jobi Icon
+  .circle-graphic-6 {
+    width: 7rem;
+    height: 7rem;
+
+    // Jobi Logo
+    .circle-logo-icon {
+      .circle-primary {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+
+      .circle-secondary {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+
+      h4 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
   // Job Portal Section
+  .job-portal-container {
+    flex-direction: column;
+    padding: 5% 0;
 
+    .portal-left,
+    .portal-right {
+      padding: 2% 0 0 0;
+    }
+  }
 
+  // Footer
+  .links-box {
+    flex-wrap: wrap;
+  }
 
+  .jobi-box {
+    order: 0;
+    flex-basis: 25%;
+  }
 
+  .links-box-ul,
+  .products-box-ul,
+  .legal-box-ul {
+    flex-basis: 25%;
+    margin: 1% 0 5%;
 
+  }
 
+  .newsletter-box {
+    flex-basis: 100%;
+    order: 1;
+    padding: 1.5% 25% 0 25%;
+  }
 
+  .footer-bottom-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
+    .left-links,
+    .copyright-text,
+    .social-links-ul {
+      display: flex;
+      justify-content: center;
+      flex-basis: 100%;
+    }
+  }
+}
 
+// ----------------------- 1000px -----------------------
+@media (max-width: 1000px) {
 
+  // Global Styles
+  h4 {
+    font-size: $fs-m;
+  }
 
+  // Header
 
+  .search-form {
+    min-width: 70rem;
+  }
+
+  .keyword-box,
+  .category-box {
+    width: 42.5%;
+    padding: 1.5%;
+  }
+
+  .search-button {
+    width: 15%;
+  }
+
+  .stats-box {
+    margin: 2% 2% 8% 2%;
+  }
+
+  // Icon Section
+  // Trending Section
+  // Listing Section
+  .job-listings-ul {
+    li {
+      flex-wrap: wrap;
+    }
+
+    h5 {
+      flex-basis: 90%;
+    }
+
+    .job-time-box {
+      margin-left: 9%;
+    }
+
+    .job-time-box,
+    .job-location-box {
+      flex-basis: 35%;
+    }
+
+    .listing-button-box {
+      flex-basis: 18%;
+    }
+  }
+
+  .outline-box {
+    border: none;
+    margin-top: 5%;
+
+    p,
+    a {
+      font-size: $fs-xxs;
+    }
+
+    span {
+      display: block;
+      margin-top: 3%;
+    }
+
+  }
+
+  // Get Started Section
+
+  .section-gradient {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%);
+  }
+
+  .get-started-heading-box {
+    align-self: center;
+    text-align: center;
+    width: 80%;
+    padding: 5%;
+
+    .icon-container {
+      display: none;
+    }
+
+  }
+
+  .get-started-gallery-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .get-started-card-box {
+    padding: 4%;
+  }
+
+  .get-started-card {
+
+    width: 70%;
+    margin-bottom: 3%;
+  }
+
+  // Talent Section
+  .talent-section {
+    flex-direction: column;
+  }
+
+  .talent-left {
+    margin-bottom: 5%;
+  }
+
+  // Client Section
+  .testimonial-card {
+    flex-basis: 48%;
+
+    h4 {
+      font-size: $fs-s;
+    }
+
+    .client-quote,
+    .client-details p {
+      font-size: $fs-xs;
+      line-height: 3rem;
+
+      img {
+        width: 5.5rem;
+        height: 5.5rem;
+      }
+    }
+  }
+
+  // Jobi Guides Section
+  // Collab Section
+  .collaboration-section {
+    flex-direction: column;
+  }
+
+  // Job Portal Section
+  // Footer
+  .newsletter-box {
+
+    padding: 1.5% 15% 0 15%;
+  }
 
 
 }
 
+// ----------------------- 800px -----------------------
+@media (max-width: 800px) {
+
+  // Global Styles
+  .wrapper {
+    max-width: 85%;
+  }
+
+  .heading-box {
+    flex-direction: column;
+    text-align: center;
+
+    a {
+      margin: 10% 0;
+    }
+  }
+
+  // Header
+  h2 {
+    font-size: $fs-2xl;
+  }
+
+  .search-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 32rem;
+  }
 
 
+  .keyword-box,
+  .category-box {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 0.1rem;
+  }
+
+  .keyword-box {
+    border-radius: 1rem 0 0 0;
+  }
+
+  .search-button {
+    width: 100%;
+    border-radius: 0 0rem 1rem 0;
+  }
+
+  .stats-bar {
+    width: 80%;
+  }
+
+  .stats-box {
+    p {
+      font-size: $fs-xxs;
+    }
+
+    p:first-of-type {
+      font-size: $fs-m;
+    }
+  }
+
+  // // Mobile Nav
+  .secondary-button.hire-talents {
+    display: none;
+  }
+
+  // Icon Section
+  .icon-section-box {
+    flex-wrap: wrap;
+
+    img {
+      width: 30%;
+    }
+  }
+
+  // Categories Section
+  .categories-ul {
+    justify-content: space-between;
+
+    li {
+      display: flex;
+      flex-basis: 50%;
+      justify-content: center;
+
+      button {
+        margin: 2% 0;
+        padding: 1rem 3rem;
+      }
+    }
+  }
+
+  // Trending Section
+  .trending-img-div p {
+    bottom: 6%;
+    left: 6%;
+    padding-right: 6%;
+  }
+
+  // Listing Section
+  .job-listings-ul {
+    li {
+      flex-wrap: wrap;
+    }
+
+    h5 {
+      flex-basis: 80%;
+      margin: 2% 0 3% 0;
+    }
+
+    .job-time-box,
+    .job-location-box {
+      margin-left: 20%;
+
+      p {
+        font-size: $fs-xxs;
+      }
+    }
+
+    .job-time-box,
+    .job-location-box {
+      flex-basis: 100%;
+      margin-bottom: 3%;
+    }
+
+    .listing-button-box {
+      margin: 0 0 5% 20%;
+      flex-basis: 18%;
+    }
+  }
+
+  .outline-box {
+    flex-basis: 100%;
+  }
+
+  // Get Started Section
+  // Talent Section
+  .talent-left {
+    .talent-choose {
+      text-align: center;
+      width: 100%;
+    }
+
+    h3 {
+      margin: 5% 0;
+      font-size: $fs-l;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: $fs-xs;
+    }
+
+    .button-link {
+      align-self: center;
+      text-align: center;
+      margin: 5% 0;
+    }
+  }
+
+  .talent-right {
+    display: none;
+  }
+
+  // Client Section
+  .client-gradient {
+    padding: 6% 0 9% 0;
+  }
+
+  .client-container {
+    .heading-box {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .heading-button-box {
+      margin: 2% 0 1% 0;
+    }
+  }
+
+  .testimonial-box {
+    flex-direction: column;
+
+    .testimonial-heading {
+      margin-bottom: 2%;
+    }
+
+    .testimonial-card {
+      margin-bottom: 5%;
+
+      h4 {
+        font-size: $fs-xs;
+      }
+
+      .quote-graphic {
+        width: 3rem;
+      }
+
+      .client-quote {
+        font-size: $fs-xxs;
+        margin: 2% 0;
+      }
+
+      .client-details {
+        p {
+          font-size: $fs-xxs;
+        }
+
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+
+        .client-location {
+          display: block;
+        }
+      }
+    }
+  }
+
+  // Jobi Guides Section
+  .jobi-guides-section {
+    padding: 10% 0 10% 0;
+  }
+
+  .guides-ul {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .guides-li {
+    margin: 5% 0;
+  }
+
+  // Collab Section
+
+  .collaboration-right {
+    padding: 5% 0;
+
+    p:first-of-type {
+      align-self: center;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+  }
+
+  // Job Portal Section
+  .job-portal-container {
+    .portal-left {
+      h3 {
+        text-align: center;
+      }
+    }
+  }
+
+  // Footer
+  .square-shape {
+    display: none;
+  }
+
+  .jobi-box {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .newsletter-box {
+    padding: 5% 0;
+  }
+
+}
 
 
+// ----------------------- 500px -----------------------
+@media (max-width: 500px) {
+
+  // Global Styles
+  h3 {
+    font-size: $fs-l;
+  }
+
+  .heading-button-box {
+    margin: 5% 0;
+  }
 
 
+  // Header
 
 
+  h2 {
+    font-size: $fs-xl;
+  }
 
+  .search-form {
+    min-width: 28rem;
+  }
 
+  .keyword-box,
+  .category-box {
+    padding: 4% 2%;
+  }
 
+  .stats-bar {
+    display: none;
+  }
 
+  // //Mobile Nav
+  .mobile-nav {
+    .nav-right-box {
+      position: relative;
+      top: 24rem;
+      right: 0rem;
+    }
+  }
 
+  .nav-button.clicked,
+  .nav-button.unclicked {
+    position: fixed;
+    z-index: 20;
+    right: 3.5rem;
+    top: 2.5rem;
+  }
 
+  // Icon Section
 
+  .icon-section-box {
+    img {
+      width: 42%;
+    }
+  }
 
-// ----------------------- 1250px -----------------------
-// ----------------------- 1250px -----------------------
+  // Categories Section
+  .categories-ul {
+    flex-direction: column;
 
+    li {
+      display: flex;
+      flex-basis: 100%;
+      justify-content: center;
 
-// Global Styles
-// Header
-// Icon Section
-// Trending Section
-// Listing Section
-// Get Started Section
-// Talent Section
-// Client Section
-// Jobi Guides Section
-// Collab Section
-// Job Portal Section
+      button {
+        margin: 5% 0;
+        padding: 1rem 3rem;
+      }
+    }
+  }
+
+  // Trending Section
+  .trending-ul {
+    flex-direction: column;
+
+    li {
+      width: 100%;
+    }
+  }
+
+  // Listing Section
+  // Get Started Section
+  .get-started-section {
+    h3 {
+      margin-bottom: 10%;
+    }
+
+    .icon-box {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+
+  .get-started-heading-box {
+    width: 100%;
+    margin: 5% 0;
+
+  }
+
+  .get-started-card-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .icon-container,
+    p {
+      margin: 0 0 5% 0;
+    }
+  }
+
+  .get-started-card {
+    width: 90%;
+    margin-bottom: 10%;
+
+  }
+
+  // Talent Section
+  .talent-left {
+    .button-link {
+      width: 100%;
+    }
+  }
+
+  // Client Section
+  // Jobi Guides Section
+  .guides-ul {
+
+    width: 100%;
+  }
+
+  // Collab Section
+  .collaboration-graphic-box {
+    max-height: 30rem;
+    height: 30rem;
+    max-width: 30rem;
+    width: 30rem;
+  }
+
+  // Circles
+  .outer-circle {
+    width: 25.5rem;
+    height: 25.5rem;
+  }
+
+  .inner-circle {
+    width: 13.13rem;
+    height: 13.13rem;
+  }
+
+  .circle-graphic-1,
+  .circle-graphic-3 {
+    width: 5.51rem;
+    height: 5.51rem;
+  }
+
+  .circle-graphic-2 {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+
+  .circle-graphic-4 {
+    width: 7.77rem;
+    height: 7.77rem;
+  }
+
+  .circle-graphic-5 {
+    width: 4.25rem;
+    height: 4.25rem;
+  }
+
+  //Icons
+  .circle-icon-1 svg,
+  .circle-icon-3 svg {
+    width: 2.62rem;
+    height: 2.62rem;
+  }
+
+  .circle-icon-2 svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .circle-icon-4 svg {
+    width: 3.94rem;
+    height: 3.94rem;
+  }
+
+  .circle-icon-5 svg {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
+
+  // Circle 6 + Jobi Icon
+  .circle-graphic-6 {
+    width: 5.25rem;
+    height: 5.25rem;
+
+    // Jobi Logo
+    .circle-logo-icon {
+
+      .circle-primary,
+      .circle-secondary {
+        width: 2.63rem;
+        height: 2.63rem;
+      }
+
+      h4 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .collaboration-right {
+    text-align: center;
+    padding: 5% 0;
+    width: 100%;
+
+    h3 {
+      margin: 5% 0;
+    }
+
+    .learn-more-link {
+      text-align: center;
+      align-self: center;
+      margin: 10% 0;
+    }
+
+  }
+
+  // Job Portal Section
+
+  .job-portal-container {
+    padding: 10% 0;
+
+    .portal-right {
+      p {
+        text-align: center;
+      }
+
+      .job-portal-buttons {
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+          margin: 2% 0;
+        }
+      }
+    }
+  }
+
+  //  Footer
+  .links-box-ul,
+  .products-box-ul,
+  .legal-box-ul {
+    flex-basis: 51%;
+    margin: 5% auto;
+    text-align: center;
+  }
+
+  .newsletter-box {
+    text-align: center;
+  }
+
+  .newsletter-box input[type="email"] {
+    width: 60%;
+    padding: 5% 0;
+  }
+  .newsletter-box button {
+    width: 30%;
+  }
+}
