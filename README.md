@@ -2,7 +2,7 @@
 **Currently In Development**
 
 ## Description
-Jobi is job board app where employers can post jobs for prospective employees. Built with React, this project uses JavaScript, SASS & HTML. Based off of style guide by Rashedul Kabir, and created with accessibility and responsiveness in mind.
+Jobi is job board app where employers can post jobs for prospective employees. Built with React, this project uses JavaScript, SASS & HTML. Converted from a style guide designed by Rashedul Kabir, and created with accessibility and responsiveness in mind.
 
 **Status**:
 Home page is complete, with special attention to the graphics & forms. Firebase and user authentication features coming soon.
