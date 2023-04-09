@@ -15,7 +15,6 @@ import TalentSection from "../Components/TalentSection";
 import TrendingSection from "../Components/TrendingSection";
 
 
-
 const Index = () => {
   return (
     <>

@@ -5,6 +5,7 @@ import MobileNav from "./MobileNav";
 // Pages
 import Index from '../Pages/Index';
 import JobListings from '../Pages/JobListings';
+import WIP from '../Pages/WIP';
 //Assets
 import CategoryIcon from "../assets/icons/category-icon.svg";
 
@@ -22,25 +23,25 @@ const Nav = () => {
         <nav className="desktop-nav">
           <div className="nav-ul unclicked" >
             <div className="nav-left-box">
-              <Link className="button-link-sm tertiary-button category-link" to={''} element={''}>
+              <Link className="button-link-sm tertiary-button category-link" to={'/work-in-progress'} element={<WIP />}>
                 <img src={CategoryIcon} alt="" className="category-icon" />
                 Category
               </Link>
               <ul className="nav-ul">
                 <li>
-                  <Link className="menu-link" to={'/'} element={<Index />}>Index</Link>
+                  <Link className="menu-link" to={'/'} element={<Index />}>Home</Link>
                 </li>
                 <li>
                   <Link className="menu-link" to={'/job-listings'} element={<JobListings />}>Job</Link>
                 </li>
                 <li>
-                  <Link className="menu-link" to={''} element={''}>Explore</Link>
+                  <Link className="menu-link" to={'/work-in-progress'} element={<WIP />}>Explore</Link>
                 </li>
                 <li>
-                  <Link className="menu-link" to={''} element={''}>Contact</Link>
+                  <Link className="menu-link" to={'/work-in-progress'} element={<WIP />}>Contact</Link>
                 </li>
                 <li>
-                  <Link className="menu-link" to={''} element={''}>Pages</Link>
+                  <Link className="menu-link" to={'/work-in-progress'} element={<WIP />} >Pages</Link>
                 </li>
               </ul>
             </div>

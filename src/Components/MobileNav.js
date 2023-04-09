@@ -4,6 +4,7 @@ import { useState } from "react";
 // Pages
 import Index from '../Pages/Index';
 import JobListings from '../Pages/JobListings';
+import WIP from '../Pages/WIP';
 //Assets
 import CategoryIcon from "../assets/icons/category-icon.svg";
 import { AiOutlinePlus } from "react-icons/ai";
@@ -36,7 +37,7 @@ const MobileNav = () => {
   };
   return (
     <nav className="mobile-nav">
-      <button className={navMenuClass} onClick={updateMenu}>
+      <button className={navMenuClass} onClick={updateMenu} aria-label="open or close menu" title="menu">
         <AiOutlinePlus className={navButtonClass} />
       </button>
       <div className={navVisibility} >
@@ -47,13 +48,13 @@ const MobileNav = () => {
           </Link>
           <ul className="nav-ul">
             <li>
-              <Link className="menu-link" to={'/'} element={<Index />} onClick={closeMenu}>Index</Link>
+              <Link className="menu-link" to={'/'} element={<Index />} onClick={closeMenu}>Home</Link>
             </li>
             <li>
               <Link className="menu-link" to={'/job-listings'} element={<JobListings />} onClick={closeMenu}>Job</Link>
             </li>
             <li>
-              <Link className="menu-link" to={''} element={''} onClick={closeMenu}>Explore</Link>
+              <Link className="menu-link" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Explore</Link>
             </li>
             <li>
               <Link className="menu-link" to={''} element={''} onClick={closeMenu}>Contact</Link>
@@ -64,9 +65,9 @@ const MobileNav = () => {
           </ul>
         </div>
         <div className="nav-right-box">
-          <Link className="menu-link post-job-link" to={''} element={''} onClick={closeMenu}>Post Job</Link>
-          <Link className="menu-link login-link" to={''} element={''} onClick={closeMenu}>Login</Link>
-          <Link className="button-link secondary-button hire-talents" to={''} element={''} onClick={closeMenu}>Hire Top Talents</Link>
+          <Link className="menu-link post-job-link" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Post Job</Link>
+          <Link className="menu-link login-link" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Login</Link>
+          <Link className="button-link secondary-button hire-talents" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Hire Top Talents</Link>
         </div>
       </div>
     </nav>
