@@ -10,6 +10,11 @@ const Header = () => {
       <Routes>
         <Route path="/" element={<HeaderIndex title="Jobi: Home" />} />
         <Route path="/job-listings" element={<HeaderSecondary title="Jobi: Jobs" />} />
+        <Route path="/work-in-progress" element={<HeaderSecondary title="Jobi: Work In Progress" />} />
+        <Route path="/jobs/jobId" element={<HeaderSecondary title="Jobi: Jobs" />} />
+        <Route path="/error" element={<HeaderSecondary title="Jobi: Jobs" />} />
+        <Route path="/work-in-progress" element={<HeaderSecondary title="Jobi: Jobs" />} />
+        <Route path="*" element={<HeaderSecondary title="Jobi: Jobs" />} />
       </Routes>
     </>
   )

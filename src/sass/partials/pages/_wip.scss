@@ -1,0 +1,29 @@
+@use '../variables' as *;
+
+// Work in Progress Page Styles
+
+.wip-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.h2-wip,
+.p-wip {
+  color: $black;
+  margin: 2% 0;
+}
+
+.h2-wip {
+  font-size: $fs-xl;
+}
+
+.p-wip {
+  font-size: $fs-s;
+}
+
+.return-button {
+  margin: 2% 0;
+}
