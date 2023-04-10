@@ -1,4 +1,5 @@
-[{
+{
+  "-Kxn-j3Lq3e1ZG-zJYd7": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -13,8 +14,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Front-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -28,9 +28,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -45,9 +47,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3Mrk7VhXKovJkr": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -62,8 +67,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -77,9 +81,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -94,9 +100,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3NXUEqz2HJn1bZ": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -111,8 +120,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Data Analyst",
     "contract-type": "Fulltime",
     "keywords": [
@@ -126,9 +134,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -143,9 +153,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3Pv4JH9wpgr6Uy": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -160,8 +173,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Designer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -175,9 +187,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -192,9 +206,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3SbABSwPmPKZwE": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -209,8 +226,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Drupal Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -224,9 +240,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -241,9 +259,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3UTc_1DQChXy0t": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -258,8 +279,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Back-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -273,9 +293,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -290,9 +312,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3Wxv_n5Z5b5AdO": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -307,8 +332,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Software Engineer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -322,9 +346,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -339,9 +365,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3Z3-nuxrqE9Xjb": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -356,8 +385,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Solutions Architect",
     "contract-type": "Fulltime",
     "keywords": [
@@ -371,9 +399,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -388,9 +418,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3aRJGv0l_vq3XY": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -405,8 +438,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Junior Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -420,9 +452,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -437,9 +471,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3e5w5l5pLWJiRk": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -454,8 +491,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Data Scientist",
     "contract-type": "Fulltime",
     "keywords": [
@@ -469,9 +505,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -486,9 +524,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3hXBf1b8WZzgBY": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -503,8 +544,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Front-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -518,9 +558,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -535,9 +577,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3kY-LdL8WKhxJg": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -552,8 +597,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Front-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -567,9 +611,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -584,9 +630,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3nuYY65y4oB4F0": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -601,8 +650,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Front-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -616,9 +664,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -633,9 +683,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxn-j3qZwubQ_sTmS6f": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -650,8 +703,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Front-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -665,9 +717,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -682,9 +736,12 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
   },
-  {
+  "-Kxnj5Q5R5eX8AbNFeaK": {
     "url": "https://acme.corp/jobs/front-end-developer",
     "benefits": [
       "Competitive salary and benefits package.",
@@ -699,8 +756,7 @@
     "twitter": "https://twitter.com/acme",
     "experienceYears": 5,
     "expertiseLevel": "Intermediate",
-    "description":
-      "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
+    "description": "As a front-end developer at Acme Corporation, you will be responsible for building and maintaining the company's website and web applications.",
     "title": "Front-end Developer",
     "contract-type": "Fulltime",
     "keywords": [
@@ -714,9 +770,11 @@
       "Git",
       "version control"
     ],
-    "location": { "city": "New York", "country": "United States" },
-    "overview":
-      "Acme Corporation is seeking a talented front-end developer to join our growing team.",
+    "location": {
+      "city": "New York",
+      "country": "United States"
+    },
+    "overview": "Acme Corporation is seeking a talented front-end developer to join our growing team.",
     "requiredSkills": [
       "Proficiency in HTML, CSS, and JavaScript.",
       "Experience with modern front-end frameworks such as React or Vue.js.",
@@ -731,5 +789,9 @@
       "Write clean, modular, and well-documented code.",
       "Optimize web pages for maximum speed and scalability."
     ],
-    "salary": { "max": 80000, "min": 50000 }
-  }]
+    "salary": {
+      "max": 80000,
+      "min": 50000
+    }
+  }
+}

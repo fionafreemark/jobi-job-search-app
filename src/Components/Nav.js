@@ -47,7 +47,7 @@ const Nav = () => {
             </div>
             <div className="nav-right-box">
               <Link className="menu-link post-job-link" to={''} element={''}>Post Job</Link>
-              <Link className="menu-link login-link" to={''} element={''}>Login</Link>
+              <Link className="menu-link login-link" to={'/login'} element={'<Login />'}>Login</Link>
               <Link className="button-link secondary-button hire-talents" to={''} element={''}>Hire Top Talents</Link>
             </div>
           </div>

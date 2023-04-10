@@ -2,11 +2,15 @@
 import { Link } from "react-router-dom";
 // Pages
 import JobListings from '../Pages/JobListings';
+
 // Assets
 import Bookmark from "../assets/icons/bookmark.svg";
 import {MdOutlineDesktopMac} from "react-icons/md";
 
 const ListingSection = () => {
+
+
+
   return (
     <section className="listing-section wrapper">
       <div className="listing-container">

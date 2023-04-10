@@ -66,7 +66,7 @@ const MobileNav = () => {
         </div>
         <div className="nav-right-box">
           <Link className="menu-link post-job-link" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Post Job</Link>
-          <Link className="menu-link login-link" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Login</Link>
+          <Link className="menu-link login-link" to={'/login'} element={'<Login />'}>Login</Link>
           <Link className="button-link secondary-button hire-talents" to={'/work-in-progress'} element={<WIP />} onClick={closeMenu}>Hire Top Talents</Link>
         </div>
       </div>

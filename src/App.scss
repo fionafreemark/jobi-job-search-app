@@ -6,10 +6,14 @@
 @use './sass/partials/typography';
 @use './sass/partials/variables';
 // Component Styles
+@use './sass/partials/components/dashboard';
 @use './sass/partials/components/footer';
 @use './sass/partials/components/header';
 @use './sass/partials/components/header-secondary';
+@use './sass/partials/components/login';
 @use './sass/partials/components/nav';
+@use './sass/partials/components/register';
+@use './sass/partials/components/reset';
 @use './sass/partials/components/search-bar';
 // Page Styles
 @use './sass/partials/pages/index';
